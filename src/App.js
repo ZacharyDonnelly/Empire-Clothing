@@ -21,7 +21,6 @@ class App extends React.Component {
     unsubscribeFromAuth = null;
 
     componentDidMount() {
-        console.log(this.state.currentUser);
         // -subscriber-
         // will send this every time until the user logs out
         // open messaging system between app/firebase
